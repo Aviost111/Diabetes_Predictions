@@ -1,4 +1,4 @@
-,Pregnancies,Glucose,BloodPressure,SkinThickness,Insulin,BMI,DiabetesPedigreeFunction,Age,Outcome,High_BloodPressure,Wieght,Elderly,Glucose_Level,Thickness_level
+,Pregnancies,Glucose,BloodPressure,SkinThickness,Insulin,BMI,DiabetesPedigreeFunction,Age,Outcome,High_BloodPressure,Weight,Elderly,Glucose_Level,Thickness_level
 459,9,134,74,33,60.0,25.9,0.46,81,0,0,Healthy,1,high_glucose_levels,4
 39,4,111,72,47,207.0,37.1,1.39,56,1,0,Obese,0,normal_glucose_levels,5
 344,8,95,72,32,125.0,36.8,0.485,57,0,0,Obese,0,normal_glucose_levels,4
@@ -13,7 +13,7 @@
 140,3,128,78,32,125.0,21.1,0.268,55,0,0,Healthy,0,normal_glucose_levels,4
 161,7,102,74,40,105.0,37.2,0.204,45,0,0,Obese,0,normal_glucose_levels,4
 750,4,136,70,32,125.0,31.2,1.182,22,1,0,Obese,0,high_glucose_levels,4
-49,7,105,0,32,125.0,32.3,0.305,24,0,0,Obese,0,normal_glucose_levels,4
+49,7,105,72,32,125.0,32.3,0.305,24,0,0,Obese,0,normal_glucose_levels,4
 689,1,144,82,46,180.0,46.1,0.335,46,1,1,Obese,0,high_glucose_levels,5
 532,1,86,66,52,65.0,41.3,0.917,29,0,0,Obese,0,normal_glucose_levels,6
 205,5,111,72,28,125.0,23.9,0.407,27,0,0,Healthy,0,normal_glucose_levels,3
@@ -52,12 +52,12 @@
 663,9,145,80,46,130.0,37.9,0.637,40,1,1,Obese,0,high_glucose_levels,5
 753,0,181,88,44,510.0,43.3,0.222,26,1,1,Obese,0,high_glucose_levels,5
 743,9,140,94,32,125.0,32.7,0.734,45,1,1,Obese,0,high_glucose_levels,4
-706,10,115,0,32,125.0,32.3,0.261,30,1,0,Obese,0,normal_glucose_levels,4
+706,10,115,72,32,125.0,32.3,0.261,30,1,0,Obese,0,normal_glucose_levels,4
 355,9,165,88,32,125.0,30.4,0.302,49,1,1,Obese,0,high_glucose_levels,4
 142,2,108,52,26,63.0,32.5,0.318,22,0,0,Obese,0,normal_glucose_levels,3
 100,1,163,72,32,125.0,39.0,1.222,33,1,0,Obese,0,high_glucose_levels,4
 224,1,100,66,15,56.0,23.6,0.666,26,0,0,Healthy,0,normal_glucose_levels,2
-703,2,129,0,32,125.0,38.5,0.304,41,0,0,Obese,0,normal_glucose_levels,4
+703,2,129,72,32,125.0,38.5,0.304,41,0,0,Obese,0,normal_glucose_levels,4
 91,4,123,80,15,176.0,32.0,0.443,34,0,1,Obese,0,normal_glucose_levels,2
 166,3,148,66,25,125.0,32.5,0.256,22,0,0,Obese,0,high_glucose_levels,3
 460,9,120,72,22,56.0,20.8,0.733,48,0,0,Healthy,0,normal_glucose_levels,3
@@ -79,12 +79,12 @@
 378,4,156,75,32,125.0,48.3,0.238,32,1,0,Obese,0,high_glucose_levels,4
 512,9,91,68,32,125.0,24.2,0.2,58,0,0,Healthy,0,normal_glucose_levels,4
 218,5,85,74,22,125.0,29.0,1.224,32,1,0,Healthy,0,normal_glucose_levels,3
-643,4,90,0,32,125.0,28.0,0.61,31,0,0,Healthy,0,normal_glucose_levels,4
+643,4,90,72,32,125.0,28.0,0.61,31,0,0,Healthy,0,normal_glucose_levels,4
 190,3,111,62,32,125.0,22.6,0.142,21,0,0,Healthy,0,normal_glucose_levels,4
 486,1,139,62,41,480.0,40.7,0.536,21,0,0,Obese,0,high_glucose_levels,5
 53,8,176,90,34,300.0,33.7,0.467,58,1,1,Obese,0,high_glucose_levels,4
 365,5,99,54,28,83.0,34.0,0.499,30,0,0,Obese,0,normal_glucose_levels,3
-619,0,119,0,32,125.0,32.4,0.141,24,1,0,Obese,0,normal_glucose_levels,4
+619,0,119,72,32,125.0,32.4,0.141,24,1,0,Obese,0,normal_glucose_levels,4
 744,13,153,88,37,140.0,40.6,1.174,39,0,1,Obese,0,high_glucose_levels,4
 586,8,143,66,32,125.0,34.9,0.129,41,1,0,Obese,0,high_glucose_levels,4
 196,1,105,58,32,125.0,24.3,0.187,21,0,0,Healthy,0,normal_glucose_levels,4
@@ -106,7 +106,7 @@
 400,4,95,64,32,125.0,32.0,0.161,31,1,0,Obese,0,normal_glucose_levels,4
 449,0,120,74,18,63.0,30.5,0.285,26,0,0,Obese,0,normal_glucose_levels,2
 242,3,139,54,32,125.0,25.6,0.402,22,1,0,Healthy,0,high_glucose_levels,4
-7,10,115,0,32,125.0,35.3,0.134,29,0,0,Obese,0,normal_glucose_levels,4
+7,10,115,72,32,125.0,35.3,0.134,29,0,0,Obese,0,normal_glucose_levels,4
 231,6,134,80,37,370.0,46.2,0.238,46,1,1,Obese,0,high_glucose_levels,4
 412,1,143,84,23,310.0,42.4,1.076,22,0,1,Obese,0,high_glucose_levels,3
 221,2,158,90,32,125.0,31.6,0.805,66,1,1,Obese,1,high_glucose_levels,4
@@ -114,7 +114,7 @@
 553,1,88,62,24,44.0,29.9,0.422,23,0,0,Healthy,0,normal_glucose_levels,3
 315,2,112,68,22,94.0,34.1,0.315,26,0,0,Obese,0,normal_glucose_levels,3
 1,1,85,66,29,125.0,26.6,0.351,31,0,0,Healthy,0,normal_glucose_levels,3
-266,0,138,0,32,125.0,36.3,0.933,25,1,0,Obese,0,high_glucose_levels,4
+266,0,138,72,32,125.0,36.3,0.933,25,1,0,Obese,0,high_glucose_levels,4
 613,6,105,80,28,125.0,32.5,0.878,26,0,1,Obese,0,normal_glucose_levels,3
 748,3,187,70,22,200.0,36.4,0.408,36,1,0,Obese,0,high_glucose_levels,3
 162,0,114,80,34,285.0,44.2,0.167,27,0,1,Obese,0,normal_glucose_levels,4
@@ -127,7 +127,7 @@
 572,3,111,58,31,44.0,29.5,0.43,22,0,0,Healthy,0,normal_glucose_levels,4
 676,9,156,86,32,125.0,24.8,0.23,53,1,1,Healthy,0,high_glucose_levels,4
 138,0,129,80,32,125.0,31.2,0.703,29,0,1,Obese,0,normal_glucose_levels,4
-60,2,84,0,32,125.0,32.3,0.304,21,0,0,Obese,0,normal_glucose_levels,4
+60,2,84,72,32,125.0,32.3,0.304,21,0,0,Obese,0,normal_glucose_levels,4
 144,4,154,62,31,284.0,32.8,0.237,23,0,0,Obese,0,high_glucose_levels,4
 113,4,76,62,32,125.0,34.0,0.391,25,0,0,Obese,0,normal_glucose_levels,4
 71,5,139,64,35,140.0,28.6,0.411,26,0,0,Healthy,0,high_glucose_levels,4
@@ -146,7 +146,7 @@
 694,2,90,60,32,125.0,23.5,0.191,25,0,0,Healthy,0,normal_glucose_levels,4
 399,3,193,70,31,125.0,34.9,0.241,25,1,0,Obese,0,high_glucose_levels,4
 530,2,122,60,18,106.0,29.8,0.717,22,0,0,Healthy,0,normal_glucose_levels,2
-347,3,116,0,32,125.0,23.5,0.187,23,0,0,Healthy,0,normal_glucose_levels,4
+347,3,116,72,32,125.0,23.5,0.187,23,0,0,Healthy,0,normal_glucose_levels,4
 555,7,124,70,33,215.0,25.5,0.161,37,0,0,Healthy,0,normal_glucose_levels,4
 410,6,102,90,39,125.0,35.7,0.674,28,0,1,Obese,0,normal_glucose_levels,4
 114,7,160,54,32,175.0,30.5,0.588,39,1,0,Obese,0,high_glucose_levels,4
